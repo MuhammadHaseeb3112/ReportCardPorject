@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+{% block title %}Report - {{ student.student_name }}{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+  <div class="card shadow-lg border-0 rounded-3 report-card">
+    <!-- Header -->
+    <div class="card-header text-white text-center py-4 report-header">
+      <h2 class="mb-0">📘 Report Card</h2>
+      <small class="text-light">Academic Performance Summary</small>
+    </div>
+
+    <div class="card-body p-4">
+
+      <!-- Student Info -->
+      <div class="row mb-4">
+        <div class="col-md-6 mb-3">
+          <p><strong>🆔 ID:</strong> {{ student.student_id }}</p>
+          <p><strong>👤 Name:</strong> {{ student.student_name }}</p>
+          <p><strong>🏫 Department:</strong> {{ student.department.department }}</p>
+        </div>
+        <div class="col-md-6 mb-3">
+          <p><strong>🎂 Age:</strong> {{ student.student_age }}</p>
+          <p><strong>📧 Email:</strong> {{ student.student_email }}</p>
+          <p><strong>🏠 Address:</strong> {{ student.student_address }}</p>
+        </div>
+      </div>
+
+      <!-- Marks -->
+      <h4 class="text-primary fw-semibold mb-3">📑 Subjects & Marks</h4>
+      <div class="table-responsive">
+        <table class="table table-hover table-bordered text-center align-middle shadow-sm">
+          <thead class="table-dark">
+            <tr>
+              <th>Subject</th>
+              <th>Obtained</th>
+              <th>Total</th>
+              <th>Percentage</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for mark in student.student_marks.all %}
+            <tr>
+              <td>{{ mark.subject.subject_name }}</td>
+              <td>{{ mark.marks_obtained }}</td>
+              <td>{{ mark.total_marks }}</td>
+              <td>{{ mark.percentage|floatformat:2 }}%</td>
+            </tr>
+            {% empty %}
+            <tr>
+              <td colspan="4" class="text-muted">No marks available</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- GPA, Grade, Percentage, Rank -->
+      <div class="row text-center my-4">
+        <div class="col-md-3 col-6 mb-3">
+          <span class="badge bg-success fs-6 p-3 shadow-sm w-100">🎓 GPA<br>{{ gpa }}</span>
+        </div>
+        <div class="col-md-3 col-6 mb-3">
+          <span class="badge bg-info fs-6 p-3 shadow-sm w-100">📊 Grade<br>{{ grade }}</span>
+        </div>
+        <div class="col-md-3 col-6 mb-3">
+          <span class="badge bg-warning text-dark fs-6 p-3 shadow-sm w-100">📈 Percentage<br>{{ percentage }}%</span>
+        </div>
+        <div class="col-md-3 col-6 mb-3">
+          <span class="badge bg-danger fs-6 p-3 shadow-sm w-100">🏅 Rank<br>{{ rank }}</span>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="text-center no-print">
+        <a href="{% url 'student_report_pdf' student.id %}" class="btn btn-primary btn-lg shadow-sm me-2">
+          📄 Download PDF
+        </a>
+        <button onclick="window.print()" class="btn btn-outline-secondary btn-lg shadow-sm">
+          🖨 Print Report
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Custom Theme & Print Styles -->
+<style>
+  /* Gradient Header */
+  .report-header {
+    background: linear-gradient(135deg, #4facfe, #00c6ff);
+  }
+
+  /* Table styling */
+  table th {
+    font-weight: 600;
+  }
+  table tbody tr:hover {
+    background-color: #f1faff;
+    transition: background 0.3s ease;
+  }
+
+  /* Print Styles */
+  @media print {
+    body * {
+      visibility: hidden;
+    }
+    .report-card, .report-card * {
+      visibility: visible;
+    }
+    .report-card {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      box-shadow: none !important;
+      border: none !important;
+    }
+    .no-print {
+      display: none !important;
+    }
+
+    /* 🔥 Keep colors in print */
+    * {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+      color-adjust: exact !important;
+    }
+  }
+</style>
+{% endblock %}
