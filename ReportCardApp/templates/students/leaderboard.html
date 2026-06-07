@@ -7,7 +7,7 @@
   .leaderboard-card {
     border-radius: 1rem;
     background: #ffffff;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
     overflow: hidden;
   }
 
@@ -18,10 +18,12 @@
     padding: 2rem;
     text-align: center;
   }
+
   .leaderboard-header h2 {
     font-weight: 700;
     margin-bottom: .5rem;
   }
+
   .leaderboard-header p {
     font-size: .95rem;
     opacity: 0.9;
@@ -33,6 +35,7 @@
     text-transform: uppercase;
     letter-spacing: .5px;
   }
+
   .table-hover tbody tr:hover {
     background-color: #f1f9ff;
     transition: 0.3s;
@@ -48,7 +51,18 @@
 
 <div class="container py-5">
   <div class="leaderboard-card">
-    
+
+    <div class="mb-3">
+
+      <form method="post" action="{% url 'publish_results' %}">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-success">
+          📧 Publish Results
+        </button>
+      </form>
+
+    </div>
+
     <!-- Header -->
     <div class="leaderboard-header">
       <h2>🏆 Student Leaderboard</h2>
@@ -69,59 +83,57 @@
         </thead>
         <tbody>
           {% if students %}
-            {% for student in students %}
-            <tr class="text-center">
-              <!-- Rank -->
-              <td>
-                {% if student.rank == 1 %}
-                  <span class="badge bg-warning text-dark rank-badge">🥇</span>
-                {% elif student.rank == 2 %}
-                  <span class="badge bg-secondary rank-badge">🥈</span>
-                {% elif student.rank == 3 %}
-                  <span class="badge bg-danger rank-badge">🥉</span>
-                {% else %}
-                  <span class="badge bg-info text-dark rank-badge">{{ student.rank }}</span>
-                {% endif %}
-              </td>
+          {% for student in students %}
+          <tr class="text-center">
+            <!-- Rank -->
+            <td>
+              {% if student.rank == 1 %}
+              <span class="badge bg-warning text-dark rank-badge">🥇</span>
+              {% elif student.rank == 2 %}
+              <span class="badge bg-secondary rank-badge">🥈</span>
+              {% elif student.rank == 3 %}
+              <span class="badge bg-danger rank-badge">🥉</span>
+              {% else %}
+              <span class="badge bg-info text-dark rank-badge">{{ student.rank }}</span>
+              {% endif %}
+            </td>
 
-              <!-- Student Name -->
-              <td class="fw-semibold">{{ student.student_name }}</td>
+            <!-- Student Name -->
+            <td class="fw-semibold">{{ student.student_name }}</td>
 
-              <!-- GPA -->
-              <td><span class="text-dark fw-bold">{{ student.gpa|floatformat:2 }}</span></td>
+            <!-- GPA -->
+            <td><span class="text-dark fw-bold">{{ student.gpa|floatformat:2 }}</span></td>
 
-              <!-- Grade -->
-              <td>
-                {% if student.grade == "A" %}
-                  <span class="badge bg-success px-3 py-2">{{ student.grade }}</span>
-                {% elif student.grade == "B" %}
-                  <span class="badge bg-info px-3 py-2">{{ student.grade }}</span>
-                {% elif student.grade == "C" %}
-                  <span class="badge bg-warning text-dark px-3 py-2">{{ student.grade }}</span>
-                {% else %}
-                  <span class="badge bg-danger px-3 py-2">{{ student.grade }}</span>
-                {% endif %}
-              </td>
+            <!-- Grade -->
+            <td>
+              {% if student.grade == "A" %}
+              <span class="badge bg-success px-3 py-2">{{ student.grade }}</span>
+              {% elif student.grade == "B" %}
+              <span class="badge bg-info px-3 py-2">{{ student.grade }}</span>
+              {% elif student.grade == "C" %}
+              <span class="badge bg-warning text-dark px-3 py-2">{{ student.grade }}</span>
+              {% else %}
+              <span class="badge bg-danger px-3 py-2">{{ student.grade }}</span>
+              {% endif %}
+            </td>
 
-              <!-- Actions -->
-              <td>
-                <a href="{% url 'student_report' student.id %}" 
-                   class="btn btn-sm btn-outline-primary me-2 shadow-sm">
-                  🔍 View Report
-                </a>
-                <a href="{% url 'student_report_pdf' student.id %}" 
-                   class="btn btn-sm btn-outline-danger shadow-sm">
-                  ⬇️ Download PDF
-                </a>
-              </td>
-            </tr>
-            {% endfor %}
+            <!-- Actions -->
+            <td>
+              <a href="{% url 'student_report' student.id %}" class="btn btn-sm btn-outline-primary me-2 shadow-sm">
+                🔍 View Report
+              </a>
+              <a href="{% url 'student_report_pdf' student.id %}" class="btn btn-sm btn-outline-danger shadow-sm">
+                ⬇️ Download PDF
+              </a>
+            </td>
+          </tr>
+          {% endfor %}
           {% else %}
-            <tr>
-              <td colspan="5" class="text-center text-muted py-4">
-                No student data available yet.
-              </td>
-            </tr>
+          <tr>
+            <td colspan="5" class="text-center text-muted py-4">
+              No student data available yet.
+            </td>
+          </tr>
           {% endif %}
         </tbody>
       </table>

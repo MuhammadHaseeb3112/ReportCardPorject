@@ -1,0 +1,3991 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2025-09-17T19:52:46.649Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "27",
+            "object_repr": "Jordan Delacruz (STU-1276)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Student address\"]}}, {\"changed\": {\"name\": \"Subject Mark\", \"object\": \"Jordan Delacruz - Out\", \"fields\": [\"Marks obtained\"]}}, {\"changed\": {\"name\": \"Subject Mark\", \"object\": \"Jordan Delacruz - Food\", \"fields\": [\"Marks obtained\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2025-09-17T19:53:17.297Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "18",
+            "object_repr": "Nicole Costa (STU-3200)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Student address\"]}}, {\"changed\": {\"name\": \"Subject Mark\", \"object\": \"Nicole Costa - Among\", \"fields\": [\"Marks obtained\"]}}, {\"changed\": {\"name\": \"Subject Mark\", \"object\": \"Nicole Costa - Outside\", \"fields\": [\"Marks obtained\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2025-09-17T19:53:29.760Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "18",
+            "object_repr": "Nicole Costa (STU-3200)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"name\": \"Subject Mark\", \"object\": \"Nicole Costa - Pretty\", \"fields\": [\"Marks obtained\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2025-09-18T01:00:51.397Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "1",
+            "object_repr": "Haseeb",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2026-06-06T13:27:55.593Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "13",
+            "object_repr": "Andre Blake (STU-3172)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Student email\", \"Student address\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2026-06-06T13:59:21.121Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "51",
+            "object_repr": "Haseeb (STU-3193)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Subject Mark\", \"object\": \"Haseeb - Structure\"}}, {\"added\": {\"name\": \"Subject Mark\", \"object\": \"Haseeb - Pretty\"}}, {\"added\": {\"name\": \"Subject Mark\", \"object\": \"Haseeb - Memory\"}}, {\"added\": {\"name\": \"Subject Mark\", \"object\": \"Haseeb - Goal\"}}, {\"added\": {\"name\": \"Subject Mark\", \"object\": \"Haseeb - Food\"}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add Department",
+            "content_type": 7,
+            "codename": "add_department"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change Department",
+            "content_type": 7,
+            "codename": "change_department"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete Department",
+            "content_type": 7,
+            "codename": "delete_department"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view Department",
+            "content_type": 7,
+            "codename": "view_department"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add Student",
+            "content_type": 8,
+            "codename": "add_student"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change Student",
+            "content_type": 8,
+            "codename": "change_student"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete Student",
+            "content_type": 8,
+            "codename": "delete_student"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view Student",
+            "content_type": 8,
+            "codename": "view_student"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add Subject",
+            "content_type": 9,
+            "codename": "add_subject"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change Subject",
+            "content_type": 9,
+            "codename": "change_subject"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete Subject",
+            "content_type": 9,
+            "codename": "delete_subject"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view Subject",
+            "content_type": 9,
+            "codename": "view_subject"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add Subject Mark",
+            "content_type": 10,
+            "codename": "add_subjectmarks"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change Subject Mark",
+            "content_type": 10,
+            "codename": "change_subjectmarks"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete Subject Mark",
+            "content_type": 10,
+            "codename": "delete_subjectmarks"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view Subject Mark",
+            "content_type": 10,
+            "codename": "view_subjectmarks"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$CsOydL7Br6SD7YcL1Lud2t$pbDOHI3fsUu11UsUYGtxlhV+T+F8CJDLrUOB0K0+7Qw=",
+            "last_login": "2026-06-06T14:37:21.660Z",
+            "is_superuser": true,
+            "username": "Haseeb",
+            "first_name": "",
+            "last_name": "",
+            "email": "mhasseb3112@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2025-09-17T19:51:02Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "ReportCardApp",
+            "model": "department"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "ReportCardApp",
+            "model": "student"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "ReportCardApp",
+            "model": "subject"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "ReportCardApp",
+            "model": "subjectmarks"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "6eyf2fa379uwbzcrp70rn6spip964p3s",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGllrJ_5R0ucM1q694ACypTipEHeHSCmgfTPzXiLitpa4dV7inMVZKHH63QjTg-sO8h3rrcnU6rrMJHdFHrTLqWV-Xg7376BgL9_aGrpSsGkcgBlBsUObA_gxgR80O-e8V8GA14yZslGjYvaGkVEBaS3eH991N8s:1wVs9J:dH80eD8x5AnI2q-peFfwdBtg5H0S-XBWhnrKXkyp4j0",
+            "expire_date": "2026-06-20T14:37:21.666Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "a3sl73v3vlfqfkr9vtti316gy3znhyg3",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGllrJ_5R0ucM1q694ACypTipEHeHSCmgfTPzXiLitpa4dV7inMVZKHH63QjTg-sO8h3rrcnU6rrMJHdFHrTLqWV-Xg7376BgL9_aGrpSsGkcgBlBsUObA_gxgR80O-e8V8GA14yZslGjYvaGkVEBaS3eH991N8s:1uz30i:CkOME9xyNUedDZF4eubGb2cbPARcuFdD4cnmGRsKJuU",
+            "expire_date": "2025-10-02T01:00:32.792Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "m92o3q8ogx91bn3b17oun12iohw4u1il",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGllrJ_5R0ucM1q694ACypTipEHeHSCmgfTPzXiLitpa4dV7inMVZKHH63QjTg-sO8h3rrcnU6rrMJHdFHrTLqWV-Xg7376BgL9_aGrpSsGkcgBlBsUObA_gxgR80O-e8V8GA14yZslGjYvaGkVEBaS3eH991N8s:1uz2B1:fdp2YmnyqEpnTFzi7i5UaBvcnmKWjOrSeWFMzY_beSI",
+            "expire_date": "2025-10-02T00:07:07.262Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "o3xb0nzeg1or8k8lu1ow96ulz4k5g096",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGllrJ_5R0ucM1q694ACypTipEHeHSCmgfTPzXiLitpa4dV7inMVZKHH63QjTg-sO8h3rrcnU6rrMJHdFHrTLqWV-Xg7376BgL9_aGrpSsGkcgBlBsUObA_gxgR80O-e8V8GA14yZslGjYvaGkVEBaS3eH991N8s:1wVoJo:GC8trtuOItMhg9OZR3bVibGWjwd30MDynRJ4EbPZL4E",
+            "expire_date": "2026-06-20T10:31:56.836Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "o900glqvi3kgl30nir2572f25g57n996",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGllrJ_5R0ucM1q694ACypTipEHeHSCmgfTPzXiLitpa4dV7inMVZKHH63QjTg-sO8h3rrcnU6rrMJHdFHrTLqWV-Xg7376BgL9_aGrpSsGkcgBlBsUObA_gxgR80O-e8V8GA14yZslGjYvaGkVEBaS3eH991N8s:1wVoUt:tGKUFY_JQrKrszW_egJUb-UUATy1D9OLjfy8yCkzr_M",
+            "expire_date": "2026-06-20T10:43:23.488Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "sywl7hhg14g40r62w7wjlh0bvry8nnga",
+        "fields": {
+            "session_data": ".eJxVjTsOwjAQRO-SGix_4h8lPWewdu0NCaAYYkcpEHcnkVJAO2_mzbsJMNc-zIWmMKTm1Ijm8JshxDuNG0g3GK-ZxTzWaUC2VdhOC7vkRI_z3v0T9FD6dW00duhNbBUnAi7IgkmeuzZypyRZa50TXnMnCRImLVpB5DQBgeAo5SZ9QilLnlKYqFANNa9vqzouEF_j0Skvk-kMEioDUXvJOVhlwbcYzWr4fAE4S0zI:1uz328:VAsZcGD4DyUmK_W_CetU7vtDDh5b-SaQhuNvt4xjAwk",
+            "expire_date": "2025-10-02T01:02:00.581Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "wg4x5kork2qwr9se53mb5ly71wupe97p",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGllrJ_5R0ucM1q694ACypTipEHeHSCmgfTPzXiLitpa4dV7inMVZKHH63QjTg-sO8h3rrcnU6rrMJHdFHrTLqWV-Xg7376BgL9_aGrpSsGkcgBlBsUObA_gxgR80O-e8V8GA14yZslGjYvaGkVEBaS3eH991N8s:1uz2BW:Cr_049V1eQVaGAu6OZVsE7DuRw5G3zRMEhMNqe-6Qjo",
+            "expire_date": "2025-10-02T00:07:38.311Z"
+        }
+    },
+    {
+        "model": "ReportCardApp.department",
+        "pk": 1,
+        "fields": {
+            "department": "Might Department"
+        }
+    },
+    {
+        "model": "ReportCardApp.department",
+        "pk": 2,
+        "fields": {
+            "department": "Task Department"
+        }
+    },
+    {
+        "model": "ReportCardApp.department",
+        "pk": 3,
+        "fields": {
+            "department": "Thought Department"
+        }
+    },
+    {
+        "model": "ReportCardApp.department",
+        "pk": 4,
+        "fields": {
+            "department": "You Department"
+        }
+    },
+    {
+        "model": "ReportCardApp.department",
+        "pk": 5,
+        "fields": {
+            "department": "Ago Department"
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 1,
+        "fields": {
+            "subject_name": "Discussion",
+            "department": 1
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 2,
+        "fields": {
+            "subject_name": "Reason",
+            "department": 1
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 3,
+        "fields": {
+            "subject_name": "Range",
+            "department": 1
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 4,
+        "fields": {
+            "subject_name": "Seat",
+            "department": 1
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 5,
+        "fields": {
+            "subject_name": "Measure",
+            "department": 1
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 6,
+        "fields": {
+            "subject_name": "Power",
+            "department": 2
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 7,
+        "fields": {
+            "subject_name": "Among",
+            "department": 2
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 8,
+        "fields": {
+            "subject_name": "Outside",
+            "department": 2
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 9,
+        "fields": {
+            "subject_name": "Area",
+            "department": 2
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 10,
+        "fields": {
+            "subject_name": "Pretty",
+            "department": 2
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 11,
+        "fields": {
+            "subject_name": "Goal",
+            "department": 3
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 12,
+        "fields": {
+            "subject_name": "Out",
+            "department": 3
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 13,
+        "fields": {
+            "subject_name": "Memory",
+            "department": 3
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 14,
+        "fields": {
+            "subject_name": "Food",
+            "department": 3
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 15,
+        "fields": {
+            "subject_name": "Window",
+            "department": 3
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 16,
+        "fields": {
+            "subject_name": "Today",
+            "department": 4
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 17,
+        "fields": {
+            "subject_name": "Policy",
+            "department": 4
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 18,
+        "fields": {
+            "subject_name": "Yeah",
+            "department": 4
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 19,
+        "fields": {
+            "subject_name": "Actually",
+            "department": 4
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 20,
+        "fields": {
+            "subject_name": "Per",
+            "department": 4
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 21,
+        "fields": {
+            "subject_name": "Structure",
+            "department": 5
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 22,
+        "fields": {
+            "subject_name": "Wonder",
+            "department": 5
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 23,
+        "fields": {
+            "subject_name": "Situation",
+            "department": 5
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 24,
+        "fields": {
+            "subject_name": "Though",
+            "department": 5
+        }
+    },
+    {
+        "model": "ReportCardApp.subject",
+        "pk": 25,
+        "fields": {
+            "subject_name": "Assume",
+            "department": 5
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 1,
+        "fields": {
+            "department": 1,
+            "student_id": "STU-8445",
+            "student_name": "Cody Evans",
+            "student_age": 24,
+            "student_email": "richard82@example.org",
+            "student_address": "7276 Dennis Pine Apt. 220\nNicholaschester, OH 70307"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 2,
+        "fields": {
+            "department": 1,
+            "student_id": "STU-8590",
+            "student_name": "Cheryl Willis",
+            "student_age": 19,
+            "student_email": "lperez@example.org",
+            "student_address": "USNV Kane\nFPO AP 17409"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 3,
+        "fields": {
+            "department": 1,
+            "student_id": "STU-4865",
+            "student_name": "James Norton",
+            "student_age": 18,
+            "student_email": "martinbarbara@example.net",
+            "student_address": "1300 Thompson Meadow\nAnthonyport, IN 43747"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 4,
+        "fields": {
+            "department": 1,
+            "student_id": "STU-1646",
+            "student_name": "Sarah Mcintosh",
+            "student_age": 26,
+            "student_email": "cookjohn@example.net",
+            "student_address": "6471 Steven Mountains Apt. 675\nAllenstad, VI 44618"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 5,
+        "fields": {
+            "department": 1,
+            "student_id": "STU-6337",
+            "student_name": "Martin Turner",
+            "student_age": 20,
+            "student_email": "james26@example.org",
+            "student_address": "29975 Stewart Park\nWilcoxland, VI 38549"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 6,
+        "fields": {
+            "department": 1,
+            "student_id": "STU-8295",
+            "student_name": "Melissa Wells",
+            "student_age": 21,
+            "student_email": "michelletorres@example.org",
+            "student_address": "50418 Collier Fort Apt. 448\nNorth Nathanside, MH 86430"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 7,
+        "fields": {
+            "department": 1,
+            "student_id": "STU-2223",
+            "student_name": "Eric Thompson",
+            "student_age": 26,
+            "student_email": "johnnysanchez@example.com",
+            "student_address": "64804 Stephanie Ferry Suite 049\nSouth Andrew, FL 27891"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 8,
+        "fields": {
+            "department": 1,
+            "student_id": "STU-6024",
+            "student_name": "Justin Jones",
+            "student_age": 18,
+            "student_email": "bradley81@example.net",
+            "student_address": "336 Sheppard Forges Suite 325\nNorth Melissaburgh, FL 61219"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 9,
+        "fields": {
+            "department": 1,
+            "student_id": "STU-8786",
+            "student_name": "Sean Wilson",
+            "student_age": 30,
+            "student_email": "lindawebb@example.com",
+            "student_address": "3808 Castillo Point Apt. 424\nNew Ashley, MA 99843"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 10,
+        "fields": {
+            "department": 1,
+            "student_id": "STU-8082",
+            "student_name": "Patrick Carr",
+            "student_age": 19,
+            "student_email": "ballen@example.com",
+            "student_address": "19902 Nash Points\nEast Matthew, NH 71136"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 11,
+        "fields": {
+            "department": 2,
+            "student_id": "STU-1595",
+            "student_name": "Stephen Hall",
+            "student_age": 22,
+            "student_email": "boyerdarin@example.net",
+            "student_address": "7576 Katelyn Park\nSouth Megan, VA 64636"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 12,
+        "fields": {
+            "department": 2,
+            "student_id": "STU-3831",
+            "student_name": "Brian Vargas",
+            "student_age": 28,
+            "student_email": "bmiller@example.com",
+            "student_address": "3389 Amy Fall Suite 794\nWest Steven, AS 54712"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 13,
+        "fields": {
+            "department": 2,
+            "student_id": "STU-3172",
+            "student_name": "Andre Blake",
+            "student_age": 29,
+            "student_email": "mhasseb3112@gmail.com",
+            "student_address": "6556 Taylor Flat\r\nSchultzmouth, PW 47014"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 14,
+        "fields": {
+            "department": 2,
+            "student_id": "STU-1121",
+            "student_name": "Maria Hurley",
+            "student_age": 21,
+            "student_email": "solomontamara@example.com",
+            "student_address": "2771 Beck Villages\nWest Michael, WV 18520"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 15,
+        "fields": {
+            "department": 2,
+            "student_id": "STU-9155",
+            "student_name": "John Thompson",
+            "student_age": 25,
+            "student_email": "nicole63@example.net",
+            "student_address": "481 Valerie Well Suite 420\nAndrewmouth, NH 20031"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 16,
+        "fields": {
+            "department": 2,
+            "student_id": "STU-8360",
+            "student_name": "Raymond Bradford",
+            "student_age": 27,
+            "student_email": "hharrison@example.org",
+            "student_address": "2457 Joshua Fields\nChambersburgh, AR 80042"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 17,
+        "fields": {
+            "department": 2,
+            "student_id": "STU-2924",
+            "student_name": "Luke Brown",
+            "student_age": 29,
+            "student_email": "dylanmurphy@example.net",
+            "student_address": "21321 Maria Gateway Apt. 420\nLake Randy, MN 42276"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 18,
+        "fields": {
+            "department": 2,
+            "student_id": "STU-3200",
+            "student_name": "Nicole Costa",
+            "student_age": 18,
+            "student_email": "browntimothy@example.net",
+            "student_address": "544 Kristy Junctions\r\nPhillipsport, AR 69564"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 19,
+        "fields": {
+            "department": 2,
+            "student_id": "STU-3222",
+            "student_name": "John Page",
+            "student_age": 22,
+            "student_email": "pjones@example.org",
+            "student_address": "20825 Gay Keys Suite 873\nMccoytown, MO 00623"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 20,
+        "fields": {
+            "department": 2,
+            "student_id": "STU-8604",
+            "student_name": "Eric Taylor",
+            "student_age": 24,
+            "student_email": "rachel16@example.net",
+            "student_address": "PSC 2569, Box 0067\nAPO AP 07876"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 21,
+        "fields": {
+            "department": 3,
+            "student_id": "STU-2560",
+            "student_name": "Heather Wilson",
+            "student_age": 18,
+            "student_email": "rebeccamoore@example.net",
+            "student_address": "0408 Phillips Summit\nKristamouth, VA 21431"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 22,
+        "fields": {
+            "department": 3,
+            "student_id": "STU-2863",
+            "student_name": "Mallory Manning",
+            "student_age": 30,
+            "student_email": "suttonwilliam@example.com",
+            "student_address": "962 Stephanie Neck Suite 776\nSouth Jennifer, MP 00651"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 23,
+        "fields": {
+            "department": 3,
+            "student_id": "STU-7741",
+            "student_name": "Richard Mays",
+            "student_age": 29,
+            "student_email": "sandradoyle@example.com",
+            "student_address": "389 Samuel Gardens Suite 334\nNorth Jasonport, VA 09959"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 24,
+        "fields": {
+            "department": 3,
+            "student_id": "STU-5773",
+            "student_name": "Michele Lopez",
+            "student_age": 27,
+            "student_email": "anna70@example.org",
+            "student_address": "18256 Michael Bridge\nCarrillofort, MI 14585"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 25,
+        "fields": {
+            "department": 3,
+            "student_id": "STU-2446",
+            "student_name": "Steve Daniels",
+            "student_age": 23,
+            "student_email": "wperez@example.net",
+            "student_address": "880 Weber Isle\nJamesside, PA 27003"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 26,
+        "fields": {
+            "department": 3,
+            "student_id": "STU-2544",
+            "student_name": "Caleb Reynolds",
+            "student_age": 28,
+            "student_email": "bwhite@example.net",
+            "student_address": "6937 Michael Landing\nNorth Barbara, HI 94582"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 27,
+        "fields": {
+            "department": 3,
+            "student_id": "STU-1276",
+            "student_name": "Jordan Delacruz",
+            "student_age": 18,
+            "student_email": "monica65@example.com",
+            "student_address": "19665 Cheryl Square\r\nNew Clinton, IL 56163"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 28,
+        "fields": {
+            "department": 3,
+            "student_id": "STU-5937",
+            "student_name": "Laura Marshall",
+            "student_age": 30,
+            "student_email": "edward00@example.net",
+            "student_address": "9196 Olivia Mill\nLake John, CA 55310"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 29,
+        "fields": {
+            "department": 3,
+            "student_id": "STU-5801",
+            "student_name": "Charles Thomas",
+            "student_age": 23,
+            "student_email": "perezdanny@example.org",
+            "student_address": "4287 Timothy Road\nHallbury, MP 51547"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 30,
+        "fields": {
+            "department": 3,
+            "student_id": "STU-3761",
+            "student_name": "Scott Miller",
+            "student_age": 28,
+            "student_email": "toddgonzalez@example.net",
+            "student_address": "88897 Stephen Corners Suite 006\nSouth Felicia, NM 16323"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 31,
+        "fields": {
+            "department": 4,
+            "student_id": "STU-8766",
+            "student_name": "Carrie Riley",
+            "student_age": 25,
+            "student_email": "ebooker@example.org",
+            "student_address": "585 Orozco Club Suite 545\nDuncanton, KS 12422"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 32,
+        "fields": {
+            "department": 4,
+            "student_id": "STU-3644",
+            "student_name": "Jessica Wright",
+            "student_age": 24,
+            "student_email": "daniel85@example.net",
+            "student_address": "98489 Melissa Mountains\nWest Alyssamouth, PA 50441"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 33,
+        "fields": {
+            "department": 4,
+            "student_id": "STU-4217",
+            "student_name": "Melody Rogers",
+            "student_age": 23,
+            "student_email": "jorge09@example.com",
+            "student_address": "930 Kevin Haven Suite 264\nNorth Davidport, FL 52218"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 34,
+        "fields": {
+            "department": 4,
+            "student_id": "STU-7481",
+            "student_name": "George Fisher",
+            "student_age": 24,
+            "student_email": "andersonjoann@example.com",
+            "student_address": "696 Cindy Knoll Apt. 268\nCookton, MT 35630"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 35,
+        "fields": {
+            "department": 4,
+            "student_id": "STU-7464",
+            "student_name": "Lisa Norris",
+            "student_age": 20,
+            "student_email": "katie88@example.org",
+            "student_address": "4242 Stewart Oval Apt. 556\nPort Davidmouth, PR 80106"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 36,
+        "fields": {
+            "department": 4,
+            "student_id": "STU-5635",
+            "student_name": "Bryan Mathews",
+            "student_age": 29,
+            "student_email": "laura74@example.com",
+            "student_address": "02106 Guzman Street\nCisnerosberg, GA 24627"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 37,
+        "fields": {
+            "department": 4,
+            "student_id": "STU-6280",
+            "student_name": "Ryan Rodriguez",
+            "student_age": 26,
+            "student_email": "kayladoyle@example.org",
+            "student_address": "2800 Mary Isle Apt. 712\nJulieside, GU 70622"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 38,
+        "fields": {
+            "department": 4,
+            "student_id": "STU-8174",
+            "student_name": "Sergio Jacobs",
+            "student_age": 20,
+            "student_email": "bbenson@example.net",
+            "student_address": "USS Marshall\nFPO AP 28058"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 39,
+        "fields": {
+            "department": 4,
+            "student_id": "STU-3134",
+            "student_name": "Heidi Baker",
+            "student_age": 24,
+            "student_email": "ybrown@example.net",
+            "student_address": "9603 Jessica Crossing Suite 186\nNew Maurice, AS 04582"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 40,
+        "fields": {
+            "department": 4,
+            "student_id": "STU-9603",
+            "student_name": "Marcus Brown",
+            "student_age": 25,
+            "student_email": "samuelsullivan@example.net",
+            "student_address": "4864 Burgess River\nPort Morgan, NH 32246"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 41,
+        "fields": {
+            "department": 5,
+            "student_id": "STU-1127",
+            "student_name": "Michael Nolan",
+            "student_age": 23,
+            "student_email": "joshuagallagher@example.org",
+            "student_address": "1447 Glenda Falls Apt. 198\nAmandaside, MA 90885"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 42,
+        "fields": {
+            "department": 5,
+            "student_id": "STU-5564",
+            "student_name": "Luis Pena",
+            "student_age": 20,
+            "student_email": "nancystevens@example.org",
+            "student_address": "6776 Sanchez Divide\nEast Jessicamouth, RI 41661"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 43,
+        "fields": {
+            "department": 5,
+            "student_id": "STU-5125",
+            "student_name": "Dennis Berry DDS",
+            "student_age": 24,
+            "student_email": "joellopez@example.com",
+            "student_address": "PSC 3197, Box 2990\nAPO AA 10575"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 44,
+        "fields": {
+            "department": 5,
+            "student_id": "STU-5314",
+            "student_name": "Lauren Browning",
+            "student_age": 24,
+            "student_email": "georgemathew@example.net",
+            "student_address": "27283 Wilson Tunnel Suite 276\nWest Lisahaven, NY 12100"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 45,
+        "fields": {
+            "department": 5,
+            "student_id": "STU-6646",
+            "student_name": "Steven Watkins",
+            "student_age": 27,
+            "student_email": "millerandrea@example.org",
+            "student_address": "6380 Sanchez Corner\nMichaelborough, HI 31935"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 46,
+        "fields": {
+            "department": 5,
+            "student_id": "STU-7678",
+            "student_name": "Christopher Griffin",
+            "student_age": 24,
+            "student_email": "robersonadam@example.com",
+            "student_address": "71809 Ballard Mission Apt. 380\nWest Michelle, CA 68669"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 47,
+        "fields": {
+            "department": 5,
+            "student_id": "STU-1700",
+            "student_name": "Derek Gregory",
+            "student_age": 29,
+            "student_email": "clee@example.net",
+            "student_address": "4181 Roger Parkway\nWest Deniseton, WA 35908"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 48,
+        "fields": {
+            "department": 5,
+            "student_id": "STU-6451",
+            "student_name": "Paula Craig",
+            "student_age": 30,
+            "student_email": "veronica87@example.com",
+            "student_address": "USNS Olson\nFPO AE 31493"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 49,
+        "fields": {
+            "department": 5,
+            "student_id": "STU-6138",
+            "student_name": "Jennifer Martin",
+            "student_age": 22,
+            "student_email": "jonesmelinda@example.net",
+            "student_address": "277 Smith Junction Apt. 655\nSouth Maria, WA 60443"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 50,
+        "fields": {
+            "department": 5,
+            "student_id": "STU-3757",
+            "student_name": "Michael Thompson",
+            "student_age": 28,
+            "student_email": "patriciastevenson@example.net",
+            "student_address": "583 Collins Manor Suite 006\nMatthewport, MT 80179"
+        }
+    },
+    {
+        "model": "ReportCardApp.student",
+        "pk": 51,
+        "fields": {
+            "department": 2,
+            "student_id": "STU-3193",
+            "student_name": "Haseeb",
+            "student_age": 18,
+            "student_email": "mhaseeb31120@gmail.com",
+            "student_address": "Muhallad Rafiqabad Colony, Khanpur, Distt RYK"
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 1,
+        "fields": {
+            "student": 1,
+            "subject": 1,
+            "marks_obtained": 97.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 2,
+        "fields": {
+            "student": 1,
+            "subject": 2,
+            "marks_obtained": 86.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 3,
+        "fields": {
+            "student": 1,
+            "subject": 3,
+            "marks_obtained": 39.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 4,
+        "fields": {
+            "student": 1,
+            "subject": 4,
+            "marks_obtained": 57.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 5,
+        "fields": {
+            "student": 1,
+            "subject": 5,
+            "marks_obtained": 60.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 6,
+        "fields": {
+            "student": 2,
+            "subject": 1,
+            "marks_obtained": 68.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 7,
+        "fields": {
+            "student": 2,
+            "subject": 2,
+            "marks_obtained": 75.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 8,
+        "fields": {
+            "student": 2,
+            "subject": 3,
+            "marks_obtained": 77.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 9,
+        "fields": {
+            "student": 2,
+            "subject": 4,
+            "marks_obtained": 98.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 10,
+        "fields": {
+            "student": 2,
+            "subject": 5,
+            "marks_obtained": 84.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 11,
+        "fields": {
+            "student": 3,
+            "subject": 1,
+            "marks_obtained": 56.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 12,
+        "fields": {
+            "student": 3,
+            "subject": 2,
+            "marks_obtained": 47.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 13,
+        "fields": {
+            "student": 3,
+            "subject": 3,
+            "marks_obtained": 80.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 14,
+        "fields": {
+            "student": 3,
+            "subject": 4,
+            "marks_obtained": 58.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 15,
+        "fields": {
+            "student": 3,
+            "subject": 5,
+            "marks_obtained": 88.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 16,
+        "fields": {
+            "student": 4,
+            "subject": 1,
+            "marks_obtained": 59.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 17,
+        "fields": {
+            "student": 4,
+            "subject": 2,
+            "marks_obtained": 32.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 18,
+        "fields": {
+            "student": 4,
+            "subject": 3,
+            "marks_obtained": 95.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 19,
+        "fields": {
+            "student": 4,
+            "subject": 4,
+            "marks_obtained": 98.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 20,
+        "fields": {
+            "student": 4,
+            "subject": 5,
+            "marks_obtained": 84.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 21,
+        "fields": {
+            "student": 5,
+            "subject": 1,
+            "marks_obtained": 58.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 22,
+        "fields": {
+            "student": 5,
+            "subject": 2,
+            "marks_obtained": 82.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 23,
+        "fields": {
+            "student": 5,
+            "subject": 3,
+            "marks_obtained": 94.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 24,
+        "fields": {
+            "student": 5,
+            "subject": 4,
+            "marks_obtained": 79.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 25,
+        "fields": {
+            "student": 5,
+            "subject": 5,
+            "marks_obtained": 38.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 26,
+        "fields": {
+            "student": 6,
+            "subject": 1,
+            "marks_obtained": 62.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 27,
+        "fields": {
+            "student": 6,
+            "subject": 2,
+            "marks_obtained": 87.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 28,
+        "fields": {
+            "student": 6,
+            "subject": 3,
+            "marks_obtained": 89.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 29,
+        "fields": {
+            "student": 6,
+            "subject": 4,
+            "marks_obtained": 37.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 30,
+        "fields": {
+            "student": 6,
+            "subject": 5,
+            "marks_obtained": 67.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 31,
+        "fields": {
+            "student": 7,
+            "subject": 1,
+            "marks_obtained": 58.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 32,
+        "fields": {
+            "student": 7,
+            "subject": 2,
+            "marks_obtained": 46.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 33,
+        "fields": {
+            "student": 7,
+            "subject": 3,
+            "marks_obtained": 72.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 34,
+        "fields": {
+            "student": 7,
+            "subject": 4,
+            "marks_obtained": 73.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 35,
+        "fields": {
+            "student": 7,
+            "subject": 5,
+            "marks_obtained": 94.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 36,
+        "fields": {
+            "student": 8,
+            "subject": 1,
+            "marks_obtained": 41.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 37,
+        "fields": {
+            "student": 8,
+            "subject": 2,
+            "marks_obtained": 78.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 38,
+        "fields": {
+            "student": 8,
+            "subject": 3,
+            "marks_obtained": 46.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 39,
+        "fields": {
+            "student": 8,
+            "subject": 4,
+            "marks_obtained": 39.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 40,
+        "fields": {
+            "student": 8,
+            "subject": 5,
+            "marks_obtained": 71.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 41,
+        "fields": {
+            "student": 9,
+            "subject": 1,
+            "marks_obtained": 62.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 42,
+        "fields": {
+            "student": 9,
+            "subject": 2,
+            "marks_obtained": 89.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 43,
+        "fields": {
+            "student": 9,
+            "subject": 3,
+            "marks_obtained": 49.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 44,
+        "fields": {
+            "student": 9,
+            "subject": 4,
+            "marks_obtained": 59.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 45,
+        "fields": {
+            "student": 9,
+            "subject": 5,
+            "marks_obtained": 82.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 46,
+        "fields": {
+            "student": 10,
+            "subject": 1,
+            "marks_obtained": 93.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 47,
+        "fields": {
+            "student": 10,
+            "subject": 2,
+            "marks_obtained": 98.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 48,
+        "fields": {
+            "student": 10,
+            "subject": 3,
+            "marks_obtained": 44.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 49,
+        "fields": {
+            "student": 10,
+            "subject": 4,
+            "marks_obtained": 70.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 50,
+        "fields": {
+            "student": 10,
+            "subject": 5,
+            "marks_obtained": 33.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 51,
+        "fields": {
+            "student": 11,
+            "subject": 6,
+            "marks_obtained": 88.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 52,
+        "fields": {
+            "student": 11,
+            "subject": 7,
+            "marks_obtained": 33.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 53,
+        "fields": {
+            "student": 11,
+            "subject": 8,
+            "marks_obtained": 61.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 54,
+        "fields": {
+            "student": 11,
+            "subject": 9,
+            "marks_obtained": 90.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 55,
+        "fields": {
+            "student": 11,
+            "subject": 10,
+            "marks_obtained": 54.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 56,
+        "fields": {
+            "student": 12,
+            "subject": 6,
+            "marks_obtained": 31.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 57,
+        "fields": {
+            "student": 12,
+            "subject": 7,
+            "marks_obtained": 69.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 58,
+        "fields": {
+            "student": 12,
+            "subject": 8,
+            "marks_obtained": 38.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 59,
+        "fields": {
+            "student": 12,
+            "subject": 9,
+            "marks_obtained": 71.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 60,
+        "fields": {
+            "student": 12,
+            "subject": 10,
+            "marks_obtained": 74.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 61,
+        "fields": {
+            "student": 13,
+            "subject": 6,
+            "marks_obtained": 54.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 62,
+        "fields": {
+            "student": 13,
+            "subject": 7,
+            "marks_obtained": 79.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 63,
+        "fields": {
+            "student": 13,
+            "subject": 8,
+            "marks_obtained": 42.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 64,
+        "fields": {
+            "student": 13,
+            "subject": 9,
+            "marks_obtained": 38.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 65,
+        "fields": {
+            "student": 13,
+            "subject": 10,
+            "marks_obtained": 75.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 66,
+        "fields": {
+            "student": 14,
+            "subject": 6,
+            "marks_obtained": 44.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 67,
+        "fields": {
+            "student": 14,
+            "subject": 7,
+            "marks_obtained": 43.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 68,
+        "fields": {
+            "student": 14,
+            "subject": 8,
+            "marks_obtained": 32.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 69,
+        "fields": {
+            "student": 14,
+            "subject": 9,
+            "marks_obtained": 81.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 70,
+        "fields": {
+            "student": 14,
+            "subject": 10,
+            "marks_obtained": 53.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 71,
+        "fields": {
+            "student": 15,
+            "subject": 6,
+            "marks_obtained": 63.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 72,
+        "fields": {
+            "student": 15,
+            "subject": 7,
+            "marks_obtained": 48.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 73,
+        "fields": {
+            "student": 15,
+            "subject": 8,
+            "marks_obtained": 44.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 74,
+        "fields": {
+            "student": 15,
+            "subject": 9,
+            "marks_obtained": 89.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 75,
+        "fields": {
+            "student": 15,
+            "subject": 10,
+            "marks_obtained": 60.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 76,
+        "fields": {
+            "student": 16,
+            "subject": 6,
+            "marks_obtained": 31.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 77,
+        "fields": {
+            "student": 16,
+            "subject": 7,
+            "marks_obtained": 46.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 78,
+        "fields": {
+            "student": 16,
+            "subject": 8,
+            "marks_obtained": 83.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 79,
+        "fields": {
+            "student": 16,
+            "subject": 9,
+            "marks_obtained": 44.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 80,
+        "fields": {
+            "student": 16,
+            "subject": 10,
+            "marks_obtained": 86.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 81,
+        "fields": {
+            "student": 17,
+            "subject": 6,
+            "marks_obtained": 52.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 82,
+        "fields": {
+            "student": 17,
+            "subject": 7,
+            "marks_obtained": 76.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 83,
+        "fields": {
+            "student": 17,
+            "subject": 8,
+            "marks_obtained": 59.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 84,
+        "fields": {
+            "student": 17,
+            "subject": 9,
+            "marks_obtained": 79.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 85,
+        "fields": {
+            "student": 17,
+            "subject": 10,
+            "marks_obtained": 87.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 86,
+        "fields": {
+            "student": 18,
+            "subject": 6,
+            "marks_obtained": 89.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 87,
+        "fields": {
+            "student": 18,
+            "subject": 7,
+            "marks_obtained": 91.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 88,
+        "fields": {
+            "student": 18,
+            "subject": 8,
+            "marks_obtained": 81.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 89,
+        "fields": {
+            "student": 18,
+            "subject": 9,
+            "marks_obtained": 93.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 90,
+        "fields": {
+            "student": 18,
+            "subject": 10,
+            "marks_obtained": 98.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 91,
+        "fields": {
+            "student": 19,
+            "subject": 6,
+            "marks_obtained": 65.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 92,
+        "fields": {
+            "student": 19,
+            "subject": 7,
+            "marks_obtained": 55.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 93,
+        "fields": {
+            "student": 19,
+            "subject": 8,
+            "marks_obtained": 65.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 94,
+        "fields": {
+            "student": 19,
+            "subject": 9,
+            "marks_obtained": 52.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 95,
+        "fields": {
+            "student": 19,
+            "subject": 10,
+            "marks_obtained": 72.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 96,
+        "fields": {
+            "student": 20,
+            "subject": 6,
+            "marks_obtained": 30.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 97,
+        "fields": {
+            "student": 20,
+            "subject": 7,
+            "marks_obtained": 41.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 98,
+        "fields": {
+            "student": 20,
+            "subject": 8,
+            "marks_obtained": 95.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 99,
+        "fields": {
+            "student": 20,
+            "subject": 9,
+            "marks_obtained": 42.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 100,
+        "fields": {
+            "student": 20,
+            "subject": 10,
+            "marks_obtained": 93.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 101,
+        "fields": {
+            "student": 21,
+            "subject": 11,
+            "marks_obtained": 63.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 102,
+        "fields": {
+            "student": 21,
+            "subject": 12,
+            "marks_obtained": 72.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 103,
+        "fields": {
+            "student": 21,
+            "subject": 13,
+            "marks_obtained": 67.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 104,
+        "fields": {
+            "student": 21,
+            "subject": 14,
+            "marks_obtained": 73.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 105,
+        "fields": {
+            "student": 21,
+            "subject": 15,
+            "marks_obtained": 41.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 106,
+        "fields": {
+            "student": 22,
+            "subject": 11,
+            "marks_obtained": 39.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 107,
+        "fields": {
+            "student": 22,
+            "subject": 12,
+            "marks_obtained": 55.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 108,
+        "fields": {
+            "student": 22,
+            "subject": 13,
+            "marks_obtained": 58.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 109,
+        "fields": {
+            "student": 22,
+            "subject": 14,
+            "marks_obtained": 32.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 110,
+        "fields": {
+            "student": 22,
+            "subject": 15,
+            "marks_obtained": 34.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 111,
+        "fields": {
+            "student": 23,
+            "subject": 11,
+            "marks_obtained": 43.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 112,
+        "fields": {
+            "student": 23,
+            "subject": 12,
+            "marks_obtained": 68.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 113,
+        "fields": {
+            "student": 23,
+            "subject": 13,
+            "marks_obtained": 63.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 114,
+        "fields": {
+            "student": 23,
+            "subject": 14,
+            "marks_obtained": 95.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 115,
+        "fields": {
+            "student": 23,
+            "subject": 15,
+            "marks_obtained": 30.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 116,
+        "fields": {
+            "student": 24,
+            "subject": 11,
+            "marks_obtained": 53.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 117,
+        "fields": {
+            "student": 24,
+            "subject": 12,
+            "marks_obtained": 45.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 118,
+        "fields": {
+            "student": 24,
+            "subject": 13,
+            "marks_obtained": 79.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 119,
+        "fields": {
+            "student": 24,
+            "subject": 14,
+            "marks_obtained": 96.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 120,
+        "fields": {
+            "student": 24,
+            "subject": 15,
+            "marks_obtained": 86.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 121,
+        "fields": {
+            "student": 25,
+            "subject": 11,
+            "marks_obtained": 65.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 122,
+        "fields": {
+            "student": 25,
+            "subject": 12,
+            "marks_obtained": 69.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 123,
+        "fields": {
+            "student": 25,
+            "subject": 13,
+            "marks_obtained": 62.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 124,
+        "fields": {
+            "student": 25,
+            "subject": 14,
+            "marks_obtained": 90.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 125,
+        "fields": {
+            "student": 25,
+            "subject": 15,
+            "marks_obtained": 92.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 126,
+        "fields": {
+            "student": 26,
+            "subject": 11,
+            "marks_obtained": 98.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 127,
+        "fields": {
+            "student": 26,
+            "subject": 12,
+            "marks_obtained": 62.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 128,
+        "fields": {
+            "student": 26,
+            "subject": 13,
+            "marks_obtained": 47.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 129,
+        "fields": {
+            "student": 26,
+            "subject": 14,
+            "marks_obtained": 69.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 130,
+        "fields": {
+            "student": 26,
+            "subject": 15,
+            "marks_obtained": 54.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 131,
+        "fields": {
+            "student": 27,
+            "subject": 11,
+            "marks_obtained": 93.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 132,
+        "fields": {
+            "student": 27,
+            "subject": 12,
+            "marks_obtained": 80.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 133,
+        "fields": {
+            "student": 27,
+            "subject": 13,
+            "marks_obtained": 90.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 134,
+        "fields": {
+            "student": 27,
+            "subject": 14,
+            "marks_obtained": 95.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 135,
+        "fields": {
+            "student": 27,
+            "subject": 15,
+            "marks_obtained": 96.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 136,
+        "fields": {
+            "student": 28,
+            "subject": 11,
+            "marks_obtained": 45.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 137,
+        "fields": {
+            "student": 28,
+            "subject": 12,
+            "marks_obtained": 75.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 138,
+        "fields": {
+            "student": 28,
+            "subject": 13,
+            "marks_obtained": 91.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 139,
+        "fields": {
+            "student": 28,
+            "subject": 14,
+            "marks_obtained": 84.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 140,
+        "fields": {
+            "student": 28,
+            "subject": 15,
+            "marks_obtained": 87.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 141,
+        "fields": {
+            "student": 29,
+            "subject": 11,
+            "marks_obtained": 85.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 142,
+        "fields": {
+            "student": 29,
+            "subject": 12,
+            "marks_obtained": 46.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 143,
+        "fields": {
+            "student": 29,
+            "subject": 13,
+            "marks_obtained": 79.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 144,
+        "fields": {
+            "student": 29,
+            "subject": 14,
+            "marks_obtained": 83.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 145,
+        "fields": {
+            "student": 29,
+            "subject": 15,
+            "marks_obtained": 64.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 146,
+        "fields": {
+            "student": 30,
+            "subject": 11,
+            "marks_obtained": 47.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 147,
+        "fields": {
+            "student": 30,
+            "subject": 12,
+            "marks_obtained": 72.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 148,
+        "fields": {
+            "student": 30,
+            "subject": 13,
+            "marks_obtained": 78.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 149,
+        "fields": {
+            "student": 30,
+            "subject": 14,
+            "marks_obtained": 99.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 150,
+        "fields": {
+            "student": 30,
+            "subject": 15,
+            "marks_obtained": 49.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 151,
+        "fields": {
+            "student": 31,
+            "subject": 16,
+            "marks_obtained": 38.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 152,
+        "fields": {
+            "student": 31,
+            "subject": 17,
+            "marks_obtained": 79.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 153,
+        "fields": {
+            "student": 31,
+            "subject": 18,
+            "marks_obtained": 80.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 154,
+        "fields": {
+            "student": 31,
+            "subject": 19,
+            "marks_obtained": 43.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 155,
+        "fields": {
+            "student": 31,
+            "subject": 20,
+            "marks_obtained": 74.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 156,
+        "fields": {
+            "student": 32,
+            "subject": 16,
+            "marks_obtained": 89.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 157,
+        "fields": {
+            "student": 32,
+            "subject": 17,
+            "marks_obtained": 64.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 158,
+        "fields": {
+            "student": 32,
+            "subject": 18,
+            "marks_obtained": 62.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 159,
+        "fields": {
+            "student": 32,
+            "subject": 19,
+            "marks_obtained": 50.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 160,
+        "fields": {
+            "student": 32,
+            "subject": 20,
+            "marks_obtained": 33.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 161,
+        "fields": {
+            "student": 33,
+            "subject": 16,
+            "marks_obtained": 62.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 162,
+        "fields": {
+            "student": 33,
+            "subject": 17,
+            "marks_obtained": 63.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 163,
+        "fields": {
+            "student": 33,
+            "subject": 18,
+            "marks_obtained": 39.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 164,
+        "fields": {
+            "student": 33,
+            "subject": 19,
+            "marks_obtained": 73.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 165,
+        "fields": {
+            "student": 33,
+            "subject": 20,
+            "marks_obtained": 30.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 166,
+        "fields": {
+            "student": 34,
+            "subject": 16,
+            "marks_obtained": 31.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 167,
+        "fields": {
+            "student": 34,
+            "subject": 17,
+            "marks_obtained": 59.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 168,
+        "fields": {
+            "student": 34,
+            "subject": 18,
+            "marks_obtained": 58.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 169,
+        "fields": {
+            "student": 34,
+            "subject": 19,
+            "marks_obtained": 75.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 170,
+        "fields": {
+            "student": 34,
+            "subject": 20,
+            "marks_obtained": 37.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 171,
+        "fields": {
+            "student": 35,
+            "subject": 16,
+            "marks_obtained": 35.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 172,
+        "fields": {
+            "student": 35,
+            "subject": 17,
+            "marks_obtained": 52.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 173,
+        "fields": {
+            "student": 35,
+            "subject": 18,
+            "marks_obtained": 68.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 174,
+        "fields": {
+            "student": 35,
+            "subject": 19,
+            "marks_obtained": 52.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 175,
+        "fields": {
+            "student": 35,
+            "subject": 20,
+            "marks_obtained": 39.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 176,
+        "fields": {
+            "student": 36,
+            "subject": 16,
+            "marks_obtained": 41.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 177,
+        "fields": {
+            "student": 36,
+            "subject": 17,
+            "marks_obtained": 86.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 178,
+        "fields": {
+            "student": 36,
+            "subject": 18,
+            "marks_obtained": 76.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 179,
+        "fields": {
+            "student": 36,
+            "subject": 19,
+            "marks_obtained": 39.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 180,
+        "fields": {
+            "student": 36,
+            "subject": 20,
+            "marks_obtained": 88.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 181,
+        "fields": {
+            "student": 37,
+            "subject": 16,
+            "marks_obtained": 77.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 182,
+        "fields": {
+            "student": 37,
+            "subject": 17,
+            "marks_obtained": 67.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 183,
+        "fields": {
+            "student": 37,
+            "subject": 18,
+            "marks_obtained": 98.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 184,
+        "fields": {
+            "student": 37,
+            "subject": 19,
+            "marks_obtained": 43.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 185,
+        "fields": {
+            "student": 37,
+            "subject": 20,
+            "marks_obtained": 35.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 186,
+        "fields": {
+            "student": 38,
+            "subject": 16,
+            "marks_obtained": 48.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 187,
+        "fields": {
+            "student": 38,
+            "subject": 17,
+            "marks_obtained": 77.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 188,
+        "fields": {
+            "student": 38,
+            "subject": 18,
+            "marks_obtained": 96.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 189,
+        "fields": {
+            "student": 38,
+            "subject": 19,
+            "marks_obtained": 66.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 190,
+        "fields": {
+            "student": 38,
+            "subject": 20,
+            "marks_obtained": 52.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 191,
+        "fields": {
+            "student": 39,
+            "subject": 16,
+            "marks_obtained": 60.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 192,
+        "fields": {
+            "student": 39,
+            "subject": 17,
+            "marks_obtained": 94.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 193,
+        "fields": {
+            "student": 39,
+            "subject": 18,
+            "marks_obtained": 69.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 194,
+        "fields": {
+            "student": 39,
+            "subject": 19,
+            "marks_obtained": 94.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 195,
+        "fields": {
+            "student": 39,
+            "subject": 20,
+            "marks_obtained": 36.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 196,
+        "fields": {
+            "student": 40,
+            "subject": 16,
+            "marks_obtained": 65.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 197,
+        "fields": {
+            "student": 40,
+            "subject": 17,
+            "marks_obtained": 96.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 198,
+        "fields": {
+            "student": 40,
+            "subject": 18,
+            "marks_obtained": 45.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 199,
+        "fields": {
+            "student": 40,
+            "subject": 19,
+            "marks_obtained": 40.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 200,
+        "fields": {
+            "student": 40,
+            "subject": 20,
+            "marks_obtained": 66.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 201,
+        "fields": {
+            "student": 41,
+            "subject": 21,
+            "marks_obtained": 55.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 202,
+        "fields": {
+            "student": 41,
+            "subject": 22,
+            "marks_obtained": 86.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 203,
+        "fields": {
+            "student": 41,
+            "subject": 23,
+            "marks_obtained": 45.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 204,
+        "fields": {
+            "student": 41,
+            "subject": 24,
+            "marks_obtained": 59.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 205,
+        "fields": {
+            "student": 41,
+            "subject": 25,
+            "marks_obtained": 61.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 206,
+        "fields": {
+            "student": 42,
+            "subject": 21,
+            "marks_obtained": 34.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 207,
+        "fields": {
+            "student": 42,
+            "subject": 22,
+            "marks_obtained": 65.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 208,
+        "fields": {
+            "student": 42,
+            "subject": 23,
+            "marks_obtained": 70.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 209,
+        "fields": {
+            "student": 42,
+            "subject": 24,
+            "marks_obtained": 35.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 210,
+        "fields": {
+            "student": 42,
+            "subject": 25,
+            "marks_obtained": 60.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 211,
+        "fields": {
+            "student": 43,
+            "subject": 21,
+            "marks_obtained": 32.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 212,
+        "fields": {
+            "student": 43,
+            "subject": 22,
+            "marks_obtained": 50.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 213,
+        "fields": {
+            "student": 43,
+            "subject": 23,
+            "marks_obtained": 77.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 214,
+        "fields": {
+            "student": 43,
+            "subject": 24,
+            "marks_obtained": 98.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 215,
+        "fields": {
+            "student": 43,
+            "subject": 25,
+            "marks_obtained": 52.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 216,
+        "fields": {
+            "student": 44,
+            "subject": 21,
+            "marks_obtained": 49.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 217,
+        "fields": {
+            "student": 44,
+            "subject": 22,
+            "marks_obtained": 33.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 218,
+        "fields": {
+            "student": 44,
+            "subject": 23,
+            "marks_obtained": 91.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 219,
+        "fields": {
+            "student": 44,
+            "subject": 24,
+            "marks_obtained": 78.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 220,
+        "fields": {
+            "student": 44,
+            "subject": 25,
+            "marks_obtained": 94.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 221,
+        "fields": {
+            "student": 45,
+            "subject": 21,
+            "marks_obtained": 30.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 222,
+        "fields": {
+            "student": 45,
+            "subject": 22,
+            "marks_obtained": 77.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 223,
+        "fields": {
+            "student": 45,
+            "subject": 23,
+            "marks_obtained": 65.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 224,
+        "fields": {
+            "student": 45,
+            "subject": 24,
+            "marks_obtained": 88.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 225,
+        "fields": {
+            "student": 45,
+            "subject": 25,
+            "marks_obtained": 45.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 226,
+        "fields": {
+            "student": 46,
+            "subject": 21,
+            "marks_obtained": 34.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 227,
+        "fields": {
+            "student": 46,
+            "subject": 22,
+            "marks_obtained": 76.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 228,
+        "fields": {
+            "student": 46,
+            "subject": 23,
+            "marks_obtained": 81.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 229,
+        "fields": {
+            "student": 46,
+            "subject": 24,
+            "marks_obtained": 84.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 230,
+        "fields": {
+            "student": 46,
+            "subject": 25,
+            "marks_obtained": 67.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 231,
+        "fields": {
+            "student": 47,
+            "subject": 21,
+            "marks_obtained": 85.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 232,
+        "fields": {
+            "student": 47,
+            "subject": 22,
+            "marks_obtained": 38.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 233,
+        "fields": {
+            "student": 47,
+            "subject": 23,
+            "marks_obtained": 49.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 234,
+        "fields": {
+            "student": 47,
+            "subject": 24,
+            "marks_obtained": 54.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 235,
+        "fields": {
+            "student": 47,
+            "subject": 25,
+            "marks_obtained": 36.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 236,
+        "fields": {
+            "student": 48,
+            "subject": 21,
+            "marks_obtained": 64.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 237,
+        "fields": {
+            "student": 48,
+            "subject": 22,
+            "marks_obtained": 66.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 238,
+        "fields": {
+            "student": 48,
+            "subject": 23,
+            "marks_obtained": 57.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 239,
+        "fields": {
+            "student": 48,
+            "subject": 24,
+            "marks_obtained": 54.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 240,
+        "fields": {
+            "student": 48,
+            "subject": 25,
+            "marks_obtained": 54.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 241,
+        "fields": {
+            "student": 49,
+            "subject": 21,
+            "marks_obtained": 70.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 242,
+        "fields": {
+            "student": 49,
+            "subject": 22,
+            "marks_obtained": 38.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 243,
+        "fields": {
+            "student": 49,
+            "subject": 23,
+            "marks_obtained": 77.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 244,
+        "fields": {
+            "student": 49,
+            "subject": 24,
+            "marks_obtained": 84.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 245,
+        "fields": {
+            "student": 49,
+            "subject": 25,
+            "marks_obtained": 51.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 246,
+        "fields": {
+            "student": 50,
+            "subject": 21,
+            "marks_obtained": 30.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 247,
+        "fields": {
+            "student": 50,
+            "subject": 22,
+            "marks_obtained": 37.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 248,
+        "fields": {
+            "student": 50,
+            "subject": 23,
+            "marks_obtained": 67.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 249,
+        "fields": {
+            "student": 50,
+            "subject": 24,
+            "marks_obtained": 73.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 250,
+        "fields": {
+            "student": 50,
+            "subject": 25,
+            "marks_obtained": 52.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 251,
+        "fields": {
+            "student": 51,
+            "subject": 21,
+            "marks_obtained": 90.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 252,
+        "fields": {
+            "student": 51,
+            "subject": 10,
+            "marks_obtained": 100.0,
+            "total_marks": 100.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 253,
+        "fields": {
+            "student": 51,
+            "subject": 13,
+            "marks_obtained": 99.0,
+            "total_marks": 99.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 254,
+        "fields": {
+            "student": 51,
+            "subject": 11,
+            "marks_obtained": 80.0,
+            "total_marks": 99.0
+        }
+    },
+    {
+        "model": "ReportCardApp.subjectmarks",
+        "pk": 255,
+        "fields": {
+            "student": 51,
+            "subject": 14,
+            "marks_obtained": 75.0,
+            "total_marks": 100.0
+        }
+    }
+]
