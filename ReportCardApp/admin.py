@@ -251,6 +251,8 @@ class StudentAdmin(admin.ModelAdmin):
         "student_email",
         "student_age",
         "result_published",
+        "email_sent_at",
+
     )
 
     list_filter = (
